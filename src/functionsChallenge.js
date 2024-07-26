@@ -5,7 +5,7 @@
     array = [1 ,3 ,5, 7, 6, 10]
     alvo = 11
 
-    saida: [0, 5]
+    saida: [0, 5], [2, 4]
 */
 
 function calcArray(array, target) {
