@@ -5,7 +5,7 @@
     array = [1 ,3 ,5, 7, 6, 10]
     alvo = 11
 
-    saida: [0, 5]
+    saida: [0, 5], [2, 4]
 */
 let array = [1 ,3 ,5, 7, 6, 10]
 
@@ -20,8 +20,13 @@ function arrayPairs(arr, target){
     }
     return [arr[i], arr[j]]
 }
+<<<<<<< HEAD
 
 let result = arrayPairs(array, 11)
 console.log(result)
 
 
+=======
+let array = [1, 3, 5, 7, 6, 10]
+calcArray(array)
+>>>>>>> 6426fb39f734d3cc2d5624ad7d47965a3c3aaa65
