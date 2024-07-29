@@ -14,14 +14,14 @@ function arrayPairs(arr, target){
     for(let i = 0; i < arr.length; i++){
         for(let j = i + 1; j < arr.length; j++){
             if(arr[i] + arr[j] === target){
-            pairs.push([arr[i], arr[j]])
+                pairs.push([arr[i], arr[j]])
+                return pairs
             }
         }
     }
-    return [arr[i], arr[j]]
+    return console.error("Nenhuma soma possivel")
 }
 
 
 let result = arrayPairs(array, 11)
 console.log(result)
-
