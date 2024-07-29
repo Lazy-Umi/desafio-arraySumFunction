@@ -1,6 +1,7 @@
 /*
     Criar uma função que recebe como argumento um array de inteiros e um numero inteiro alvo. 
-    A função deve retornar os indices que somandos é igual o valor alvo. Por exemplo:
+    A função deve retornar o primeiro par de indices que somados são iguais ao valor alvo.
+    Por exemplo:
     
     array = [1 ,3 ,5, 7, 6, 10]
     alvo = 11
