@@ -7,12 +7,21 @@
 
     saida: [0, 5]
 */
+let array = [1 ,3 ,5, 7, 6, 10]
 
-function calcArray(array, target) {
-    for(let i = 0; i < array.length; i++){
-        console.log(array[5])        
+function arrayPairs(arr, target){
+    let pairs = []
+    for(let i = 0; i < arr.length; i++){
+        for(let j = i + 1; j < arr.length; j++){
+            if(arr[i] + arr[j] === target){
+            pairs.push([arr[i], arr[j]])
+            }
+        }
     }
-
+    return [arr[i], arr[j]]
 }
-let array = [1, 3, 5, 7, 6, 10]
-calcArray(array)
+
+let result = arrayPairs(array, 11)
+console.log(result)
+
+
